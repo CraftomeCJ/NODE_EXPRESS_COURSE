@@ -1,7 +1,9 @@
 // local
-const secret = 'SUPER SECRET'
-// share
-const john = 'john'
-const peter = 'peter'
+const secret = 'SUPER SECRET';
 
-module.exports = { john, peter }
+// share aka global
+const john = 'john';
+const peter = 'peter';
+
+// export default
+module.exports = { john, peter }; //the module here is an object

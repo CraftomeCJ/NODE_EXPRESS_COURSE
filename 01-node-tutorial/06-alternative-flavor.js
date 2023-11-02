@@ -1,6 +1,8 @@
-module.exports.items = ['item1', 'item2']
+module.exports.items = ['item1', 'item2'];
 const person = {
-  name: 'bob',
-}
+	//this the data
+	name: 'bob',
+};
 
-module.exports.singlePerson = person
+// similar to create a new instances
+module.exports.singlePerson = person;
